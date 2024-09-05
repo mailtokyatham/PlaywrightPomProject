@@ -8,8 +8,8 @@ test('Login Test',async({page})=>{
     await loginPage.launchApplication('https://www.saucedemo.com/')
 
     //Provide User details and submit
-    await loginPage.setUserName('standard_user')
-    await loginPage.setPassword('secret_sauce')
+    await loginPage.setUserName('')
+    await loginPage.setPassword('')
     await loginPage.clickOnSubmit()
 
 })
