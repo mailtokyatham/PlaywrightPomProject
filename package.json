@@ -12,5 +12,8 @@
     "@types/node": "^22.5.4",
     "allure-commandline": "^2.30.0",
     "allure-playwright": "^3.0.0-beta.11"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
   }
 }
