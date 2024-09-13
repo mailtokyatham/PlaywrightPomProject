@@ -1,0 +1,13 @@
+{
+    "name" : "Srinivas",
+    "email" : "abc@lamdatest.com",
+    "password" : "Welcome!",
+    "company" : "Lamda Test Pvt Ltd",
+    "website" : "www.lamdatest.com",
+    "country" : "US",
+    "city" : "Austin",
+    "address1" : "10 Turan Way ",
+    "address2" : "Mississagua",
+    "state" : "Texas",
+    "zipcode" : "40003"
+}

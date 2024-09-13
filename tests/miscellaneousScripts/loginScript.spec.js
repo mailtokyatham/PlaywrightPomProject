@@ -18,6 +18,7 @@ test('Login Test',async({page})=>{
     await loginPage.setUserName('standard_user')
     await loginPage.setPassword('secret_sauce')
     await loginPage.clickOnSubmit()
+    
     // await expect.soft(page).toHaveTitle('Swag Labs')
 
 })

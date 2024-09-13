@@ -1,0 +1,13 @@
+
+exports.HomePage= class HomePage {
+    constructor(page) {
+        this.page = page
+        this.lnkINputForm = page.getByRole('link', { name: 'Input Form Submit' })
+    }
+
+    //Actions
+    async clickOnINputForm() {
+        await this.lnkINputForm.click();
+
+    }
+}

@@ -1,4 +1,4 @@
-exports.LoginPage=class LoginPage {
+export default class LoginPage {
 
     //Constructor for locators
     constructor(page) {
@@ -10,19 +10,19 @@ exports.LoginPage=class LoginPage {
 
 
     //Actions
-    
-    async launchApplication(url){
+
+    async launchApplication(url) {
         await this.page.goto(url)
     }
-    async setUserName(username){
-       await this.txtUserName.fill(username)
+    async setUserName(username) {
+        await this.txtUserName.fill(username)
 
     }
-    async setPassword(password){
+    async setPassword(password) {
         await this.txtPassword.fill(password)
 
     }
-    async clickOnSubmit(){
+    async clickOnSubmit() {
         await this.btnLogin.click()
 
     }
