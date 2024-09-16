@@ -2,7 +2,9 @@
   "name": "playwrightpomproject",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test":"npx playwright test inputFormSubmit.test.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
