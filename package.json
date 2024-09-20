@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test":"npx playwright test inputFormSubmit.test.js --project chromium"
+    "test" : " npx playwright test inputFormSubmit.test.js --project chromium --headed "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.46.1",
+    "@playwright/test": "^1.47.1",
     "@types/node": "^22.5.4",
     "allure-commandline": "^2.30.0",
-    "allure-playwright": "^3.0.0-beta.11"
+    "allure-playwright": "^3.0.0-beta.11",
+    "playwright": "^1.47.1"
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0"

@@ -23,7 +23,7 @@ test('TestCase_001', async ({ page, baseURL }) => {
     await inputform.setState(data.state)
     await inputform.setZipCode(data.zipcode)
     await inputform.clickOnSubmit()
-
+    await expect(page.getByText('Thanks for contacting us, we will get back to you shortly.')).toBeVisible();
     
 
 })
