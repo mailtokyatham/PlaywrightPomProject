@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test" : " npx playwright test inputFormSubmit.test.js --project chromium --headed "
+    "tests:e2e" : " npx playwright test inputFormSubmit.test.js --config playwright.config.js --project chromium --headed ",
+     "tests:api" : " npx playwright test api.test.js --config api.config.js --project chromium "
   },
   "keywords": [],
   "author": "",
