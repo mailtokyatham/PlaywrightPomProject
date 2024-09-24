@@ -1,0 +1,5 @@
+{
+    "baseURL" :  "https://reqres.in",
+    "endPoint" : "/api/users/"
+    
+}
