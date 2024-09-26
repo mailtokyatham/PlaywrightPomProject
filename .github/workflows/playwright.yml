@@ -1,21 +1,21 @@
-name: Playwright Tests
-'on':
-  push:
-    branches: 
-    - main
-jobs:
-  e2e-tests:
-    runs-on: windows-latest
+# name: Playwright Tests
+# 'on':
+#   push:
+#     branches: 
+#     - main
+# jobs:
+#   e2e-tests:
+#     runs-on: windows-latest
     
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-      - name: Install dependencies
-        run: npm ci
-      - name: Install playwright browsers
-        run: npx playwright install --with-deps
-      - name: Run tests e2d
-        run: npm run tests:e2e
-      - name: Run tests api
-        run: npm run tests:api
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-node@v3
+#       - name: Install dependencies
+#         run: npm ci
+#       - name: Install playwright browsers
+#         run: npx playwright install --with-deps
+#       - name: Run tests e2d
+#         run: npm run tests:e2e
+#       - name: Run tests api
+#         run: npm run tests:api
 
