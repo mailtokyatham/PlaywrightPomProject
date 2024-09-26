@@ -24,4 +24,10 @@ test.describe.parallel('Playwright API Test Framework ' , ()=>{
 
     })
 
+    test('GET API TEST-003 - Assert Invalid Resource Id', async({request})=>{
+        const response = await request.get(`${data.baseURL}/api/users/13`)
+        expect(response.status()).toBe(404)
+
+    })
+
 })

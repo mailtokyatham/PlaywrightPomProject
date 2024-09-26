@@ -1,8 +1,8 @@
 {
-    "TC001" : {
-        "id" : 2,
-        "first_name" : "Janet",
-        "last_name" : "Weaver"
+    "TC001": {
+        "id": 1,
+        "email": "george.bluth@reqres.in",
+        "first_name": "George",
+        "last_name": "Bluth"
     }
-
 }
