@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: https://hub.docker.com/repositories/mailtokyatham:latest  
+          tags: "https://hub.docker.com/repositories/mailtokyatham/my-api-test:latest"
